@@ -1,0 +1,454 @@
+
+/* big tablet to 1200px */
+@media only screen and (max-width : 1200px) {
+    .mun--hearder ul {
+        grid-template-columns: repeat( auto-fill , minmax( 150px, 1fr ) );
+        padding: 60px 0 0 32%;
+    }
+
+    #SING{
+        margin-left: -70px;
+    }
+
+    .photo {
+        grid-template-columns: repeat(auto-fill , minmax(290px,1fr));
+    }
+
+    .icon--section1 {
+        grid-template-columns: repeat(auto-fill , minmax(262px,1fr));
+        margin: 50px 0 0 50px;
+    }
+
+    .icon--section1 h2 {
+        font-size: 20px;
+    }
+
+    .back--section5 p {
+        font-size: 16px;
+    }
+
+    .grid--section3 {
+        margin-left: 25%;
+    }
+
+    #how--section2{
+        padding-top: 60px;
+    }
+
+    .grid--section3 {
+        grid-template-columns: repeat( auto-fill , minmax( 220px , .3fr ) );
+    }
+
+
+
+    .grid--section4 {
+        grid-template-columns: repeat(auto-fill , minmax(212px,1fr));
+        margin-left: 5px;
+    }
+
+    .grid--photo img {
+        width: 260px;
+    }
+
+    .menu--footer ul li {
+        margin:4px;
+    }
+
+    .icon--footer {
+        padding-left: 50%;
+    }
+
+    .prg--footer p {
+        margin-left: 47%;
+    }
+}
+/* small tablet to big tablet [from 768px to 1023 */
+@media only screen and (max-width : 1023px) {
+    .mun--hearder ul {
+        grid-template-columns: repeat( auto-fill , minmax( 145px, 1fr ) );
+        padding: 60px 0 0 20%;
+    }
+
+    .h1--header {
+        margin-top: 20%;
+    }
+
+
+    .icon--section1 {
+        grid-template-columns: repeat(auto-fill , minmax(239px,1fr));
+    }
+
+    .icon--section1 h2 {
+        font-size: 18px;
+    }
+
+    .icon--section1 p {
+        font-size: 13px;
+    }
+
+    .photo {
+        grid-template-columns: repeat(auto-fill , minmax(250px,1fr));
+    }
+
+    .photo img {
+        height: 240px;
+    }
+    
+    .grid--section3 {
+        margin-left: 20%;
+    }
+
+    .grid--photo img {
+        width: 215px;
+        height: 150px;
+    }
+
+    .grid--photo h3 {
+        font-size: 23px;
+    }
+
+    .grid--photo p {
+        font-size: 18px;
+    }
+
+    .grid--photo a {
+        font-size: 18px;
+    }
+
+    .grid--section5 {
+        grid-template-columns: repeat(auto-fill , minmax(206px,1fr));
+        grid-gap: 48px;
+    }
+
+    .grid--section5 {
+        grid-template-columns: repeat(auto-fill , minmax(206px,1fr));
+        grid-gap: 51px;
+    }
+
+    .back--section5 p {
+        font-size: 13px;
+    }
+
+    .prg--section h1 {
+        font-size: 28px;
+    }
+    
+    .prg--section p {
+        font-size: 16px;
+    }
+
+    .grid--section6 {
+        grid-template-columns: repeat(auto-fill , minmax(200px,1fr));
+        margin-left: 5%;
+        width: 860px;
+        grid-gap: 90px;
+    }
+
+    .left--side p {
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+
+    .left--side {
+        margin-top: 7px;
+    }
+
+    .right--side select {
+        width: 444px;
+        font-size: 16px;
+    }
+
+    .right--side input[type="submit"] {
+        font-size: 15px;
+    }
+
+    .menu--footer ul li {
+        font-size: 13px;
+    }
+
+    .icon--footer i {
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+    .prg--footer p {
+        margin-left: 45%;
+    }
+
+    .buttom--grid button {
+        margin-left: 80px;
+    }
+
+}
+/* small phone to small tablet [ from 481px to 767px] */
+@media only screen and (max-width : 767px) {
+    .mun--hearder img {
+        margin: 20px 0 0 50px;
+    }
+
+    .mun--hearder ul {
+        grid-template-columns: repeat( auto-fill , minmax( 100px, 1fr ) );
+        padding: 60px 0px 0px 101px;
+    }
+
+    #SING{
+        margin-left: 0px;
+    }
+    
+    .h1--header {
+        margin-top: 25%;
+        margin-left: 50PX;
+    }
+
+    .h1--header h1 {
+        font-size: 28px;
+    }
+
+    .btn--header button {
+        margin: 10px 50px;
+    }
+
+    #btn2 {
+        margin-left: -40px;
+    }
+
+    .prg--section h1 {
+        font-size: 26px;
+    }
+
+    .prg--section p {
+        font-size: 14px;
+    }
+
+    .icon--section1 {
+        grid-template-columns: repeat(auto-fill , minmax(175px,1fr));
+        margin-left: 30px;
+    }
+
+    .icon--section1 i {
+        font-size: 60px;
+    }
+
+    .icon--section1 h2 {
+        font-size: 14px;
+    }
+
+    .icon--section1 p {
+        font-size: 11px;
+    }
+
+    .photo {
+        grid-template-columns: repeat(auto-fill , minmax(187px,1fr));
+    }
+
+    .works--section3 {
+        height: 85VH;
+    }
+
+    .grid--section3 {
+        grid-template-columns: repeat( auto-fill , minmax( 160px , .3fr ) );
+    }
+
+    .photo img {
+        height: 238px;
+    }
+
+    .grid--section3 {
+        margin-left: 8%;
+    }
+
+    .left-side img {
+        width: 180px;
+        height: 340px;
+    }
+
+    .right-side ol li::before {
+        font: 20px serif;
+        margin: -10px -65px;
+        padding: 13px !important;
+    }
+
+    .right-side ol li {
+        margin: 40px -185px 10px 0 !important;
+        padding: 4px 0px 0px 0px !important;
+        font-size: 14px;
+    }
+
+    .icon--section3 img {
+        margin-right: 95px;
+        margin-left: -65px;
+        width: 150px;
+    }
+
+    .grid--section4 {
+        grid-template-columns: repeat(auto-fill , minmax(163px,1fr));
+        margin-left: 5px;
+    }
+
+    .grid--photo img {
+        width: 160px;
+        height: 130px;
+    }
+
+    .grid--photo h3 {
+        font-size: 19px;
+    }
+
+    .grid--photo p {
+        font-size: 12px;
+    }
+
+    .grid--photo a {
+        font-size: 12px;
+    }
+
+    .grid--photo i {
+        font-size: 20px;
+    }
+
+    .cities--section4 {
+        height: 75vh;
+    }
+
+    .grid--section5 {
+        grid-template-columns: repeat(auto-fill , minmax(180px,1fr));
+        grid-gap: 50px;
+    }
+
+    .prg--section5{
+        width: 200px;
+        margin-top: 40px;
+    }
+
+    .back--section5 p {
+        font-size: 14px;
+    }
+
+    .name--section5 {
+        margin-top: 10px;
+    }
+
+
+    .sign--section6{
+        width: 220px;
+    }
+
+    .grid--section6 {
+        grid-template-columns: repeat(auto-fill , minmax(128px,1fr));
+        margin-left: 3%;
+        width: 620px;
+        grid-gap: 116px;
+    }
+
+    .top--grid {
+        height: 100px;
+    }
+
+    .mid--grid {
+        height: 130px;
+
+    }
+
+    .buttom--grid {
+        height: 60px;
+    }
+
+    .top--grid h3 {
+        font-size: 16px;
+    }
+
+    .top--grid h2 {
+        font-size: 40px;
+    }
+
+    .top--grid p {
+        font-size: 13px;
+
+    }
+
+    .mid--grid li {
+        font-size: 13px;
+        margin: 11px -13px;
+    }
+
+    .buttom--grid button {
+        margin-left: 63px;
+        padding: 10px 24px;
+        font-size: 13px;
+    }
+
+    .grid--section7 {
+        grid-template-columns: repeat(auto-fill , minmax(120px,1fr));
+        margin-left: 10%;
+        grid-gap: 50px;
+    }
+
+    .left--side {
+        margin-left: -50px;
+    }
+
+    .right--side input, .right--side textarea, .right--side select {
+        width: 360px;
+    }
+
+    #myCheck {
+        margin-left: -159px;
+    }
+
+    .right--side p {
+        margin-left: -165px;
+    }
+
+    .right--side select {
+        width: 383px;
+    }
+
+    .right--side input[type="submit"] {
+        width: 19%;
+    }
+    
+
+    .menu--footer ul li {
+        font-size: 12px;
+        margin: 3px;
+
+    }
+
+    .menu--footer {
+        padding: 40px 20px;
+    }
+
+    .icon--footer i {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .prg--footer{
+        margin-top: -20px;
+    }
+
+    .prg--footer p {
+        margin-left: 42%;
+        font-size: 13px;
+    }
+
+    .healthy--section6 {
+        height: 85vh;
+    }
+
+    .right--side{
+        width: 350px;
+    }
+
+    footer {
+        height: 20vh;
+    }
+
+
+} 
+
+/* small phon screen [from 0 to 480px] */
+@media only screen and (max-width : 480px){
+   
+    
+}
